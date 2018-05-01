@@ -3,12 +3,16 @@ body {
   font-family: Helvetica;
 }
 
+
+  .completeRotation {
+    transition: transform 0.3s ease 0s;
+  }
+
 .Design {
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
-
 
 .Home {
   font-size: 18px;
@@ -38,4 +42,26 @@ body {
 .Our {
   font-size: 32px;
   font-weight: bold;
+}
+
+.Identify {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.Designed {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+
+.copyright {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
 }
